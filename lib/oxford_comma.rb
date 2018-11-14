@@ -8,7 +8,8 @@ def oxford_comma(array)
     elsif array_size > 2 
       return 
 #    array.split(0..-1).join(', ') + ', and ' + array.split(-1);
-  end
+    end
+    
   return array
 #  array.join(", ")
 end
