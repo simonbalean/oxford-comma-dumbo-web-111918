@@ -9,7 +9,7 @@ def oxford_comma(array)
       return 
 #    array.split(0..-1).join(', ') + ', and ' + array.split(-1);
     end
-    
+    array.join(", ")
   return array
 #  array.join(", ")
 end
